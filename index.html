@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Spotify Search</title>
+</head>
+
+<body>
+    <h1>Spotify Search</h1>
+    <div class="menu">
+        <input value=></input>
+
+        <select name="select">
+            <option value="artist">Artist</option>
+            <option value="album" selected>Album</option>
+        </select>
+
+        <button id="text">Go</button>
+    </div>
+
+    <div id="resultDa"></div>
+    <div id="navigation">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script id= "spotify" type="text/handlebars">
+    <ul>
+    {{#.}}
+    <div>
+        <img src="{{images.1.url}}"/>
+        <li>
+        {{name}}
+        </li>
+    </div>
+    {{/.}}
+    </ul>
+    </script>
+    <script src= "spiced.js"></script>
+    <script src= "jquery-3.1.1.js"></script>
+    <script src= "index.js"></script>
+</body>
+</html>

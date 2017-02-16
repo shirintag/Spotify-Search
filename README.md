@@ -1,10 +1,13 @@
 #Online search tool-using spotify API
 Spotify-Search is an online search tool focused on music using Spotify API. 
 Built with JavaScript, jQuery, HTML and CSS.
-
 ###How to set it up
-git clone https://github.com/shirintag/Spotify-Search && cd Spotify-Search && open index.html
-You can search for artists and albums and then display the results.
+
+```
+git clone https://github.com/shirintag/Spotify-Search && cd Spotify-Search 
+```
+
+Open index.html and you can search for artists and albums and display the results.
 
 ###UI Elements
 - A text field, 
